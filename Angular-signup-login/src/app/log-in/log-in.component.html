@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3">
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 ">
+          <h3>LogIn with Email and Password</h3>
+        </div>
+      </div>
+      <form #detailForm="ngForm" (ngSubmit)="onSubmit(detailForm)">
+        <div class="row">
+          <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
+          <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
+            <div class="form-group">
+              <input type="emailLogIn" class="form-control margin-pop"  placeholder="Email" pattern="[a-z]+[A-Z]+[0-9]+" required name="emailLogIn" [ngStyle]="{'background' : 'url(./assets/close-envelope.png)'}"
+              [(ngModel)]="emailLogIn" #emailLogInRef="ngModel" required
+              [ngClass]="(emailLogInRef.invalid && emailLogInRef.touched) ? 'red' : ''">
+              <p *ngIf="(emailLogInRef.invalid && emailLogInRef.touched)">Email is Required</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2 col-md-2 col-xs-12 col-lg-2"></div>
+          <div class="col-sm-8 col-md-8 col-xs-12 col-lg-8">
+            <div class="form-group">
+              <input type="passwordLogIn" class="form-control margin-pop"  placeholder="Password" name="password" [ngStyle]="{'background' : 'url(./assets/Lock_Green.png)'}"
+              [(ngModel)]="passwordLogIn" #passwordLogInRef="ngModel" required
+              [ngClass]="(passwordLogInRef.invalid && passwordLogInRef.touched) ? 'red' : ''">
+              <p *ngIf="(passwordLogInRef.invalid && passwordLogInRef.touched)">password is Required</p>
+            </div>
+          </div>
+        </div> 
+        <button class="btn btn-success" (click)="mySaveLogIn()">LogIn</button> 
+        <button (click)="router.navigate(['/sign-up'])" class="btn btn-success">Bac</button>  
+      </form>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3">
+    </div>
+  </div>
+</div>
+
+ <!--  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Email</th>
+        <th>Password</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  *ngFor="let value of values">
+        <td>{{value.name}}</td>
+        <td> {{value.lastname}}</td>
+        <td> {{value.email}}</td>
+        <td> {{value.password}}</td>
+      </tr>
+    </tbody>
+  </table> -->

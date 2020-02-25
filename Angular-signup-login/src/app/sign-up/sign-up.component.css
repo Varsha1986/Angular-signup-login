@@ -1,0 +1,140 @@
+.bg-color{
+  background-color:white;
+}
+.navbar-custom{
+  margin-top:-46px;
+}
+.color-custom a{
+  font-size:18px;
+  color:#25877B ! important;
+  margin-top:4px;
+}
+.row-custom{
+  border:1px solid #ddd;
+  margin-top:50px;
+}
+.sign-up-header {
+  color: #9097A3;
+  font-size: 25px;
+  font-family: Gotham-Medium;
+  margin-top:25px;
+}
+.or{
+  margin-top:30px;
+  font-size: 20px;
+  color: #9097A3;
+  margin-left:43px;
+
+}
+.submit{
+  margin-bottom: 10px;
+}
+.button {
+  background-color:#1E51AC; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin:9px 2px 4px 2px;
+}
+.button1 {border-radius: 30px;}
+.row-border{
+  border-bottom:1px solid #ddd;
+}
+.margin-pop{
+  background-position:center right !important;      
+  background-position: 95% 50% !important;
+ background-repeat: no-repeat !important;
+ padding: 26px;
+ width:450px;
+ margin-top:20px;
+
+}
+@media only screen and (max-device-width: 640px) and (min-width: 340px){
+  .margin-pop {
+    width:200px;
+    }}
+    @media only screen and (max-device-width: 640px) and (min-width: 340px){
+      .or {
+        text-align:center;
+        }}
+.margin-popp{
+ background-position:center right !important;      
+  background-position: 95% 50% !important;
+ background-repeat: no-repeat !important;
+ padding: 26px;
+ width:50px;
+ margin-top:20px;
+
+}
+.city-pop{
+
+  background-position:center right !important;      
+  background-position: 95% 50% !important;
+ background-repeat: no-repeat !important;
+ padding: 26px;
+ width:300px;
+ margin-top:20px;
+}
+.button-right{
+    color: grey;
+    padding: 19px 41px 10px 40px;
+    margin-top: 20px;
+    margin-left: -91px;
+}
+.com-edit{
+  width:450px;
+  padding:15px;
+}
+.car{
+  margin-left:300px;
+}
+.robot-border{
+border:1px solid grey;
+margin-left: 15px;
+margin-bottom: 25px;
+padding: 20px;
+width:250px;
+ }
+
+.image-float{
+  float:right;
+ }
+ .but-edit{
+margin-bottom: 55px;
+padding: 15px 80px 15px 80px;
+border-radius:20px;
+font-size: 20px;
+margin-left:-7px;
+background-color:#1F8B7C;
+}
+
+.last{
+      background-color:#D0D9D8 !important; 
+      padding:50px;
+    }
+    .last ul li{
+      display:inline;
+      padding:5px;
+    }
+    .last-check{
+      color:#009788;
+    }
+    @media only screen and (min-width: 1200px){
+      footer {
+        height: 50px;
+        }}
+        @media only screen and (min-width: 1200px){
+          .con-fix {
+            width:1700px;
+            }}
+            .foot-fix{
+              margin-top:40px;
+            }
+            .red{
+  border:1px solid red;
+}
